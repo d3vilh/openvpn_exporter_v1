@@ -1,0 +1,10 @@
+OpenVPN CLIENT LIST
+Updated,Fri Nov 11 19:07:32 2022
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+CY_iPhone,46.199.14.49:54253,19804,68484,Fri Nov 11 19:06:48 2022
+ROUTING TABLE
+Virtual Address,Common Name,Real Address,Last Ref
+10.0.70.2,CY_iPhone,46.199.14.49:54253,Fri Nov 11 19:07:31 2022
+GLOBAL STATS
+Max bcast/mcast queue length,0
+END
