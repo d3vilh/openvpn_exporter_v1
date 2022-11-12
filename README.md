@@ -4,10 +4,6 @@
 Prometheus exporter for openvpn. Exposes the metrics from [openvpn status file](https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/) - supports status-version 1-3
 
 
-## Installation
-
-For pre built binaries, please take a look at the [github releases](https://github.com/patrickjahns/openvpn_exporter/releases)
-
 ## Usage
 
 ```shell script
@@ -114,8 +110,5 @@ make build
 ```shell script
 make test
 ```
-
-
-
 
 
