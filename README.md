@@ -1,10 +1,5 @@
 # openvpn_exporter
 
-[![Release](https://img.shields.io/github/v/release/patrickjahns/openvpn_exporter?sort=semver)](https://github.com/patrickjahns/openvpn_exporter/releases)
-[![LICENSE](https://img.shields.io/github/license/patrickjahns/openvpn_exporter)](https://github.com/patrickjahns/openvpn_exporter/blob/master/LICENSE)
-[![Test and Build](https://github.com/patrickjahns/openvpn_exporter/workflows/Test%20and%20Build/badge.svg)](https://github.com/patrickjahns/openvpn_exporter/actions?query=workflow%3A%22Test+and+Build%22)
-[![Go Doc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/patrickjahns/openvpn_exporter)
-[![Go Report Card](https://goreportcard.com/badge/github.com/patrickjahns/openvpn_exporter)](https://goreportcard.com/report/github.com/patrickjahns/openvpn_exporter)
 
 Prometheus exporter for openvpn. Exposes the metrics from [openvpn status file](https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/) - supports status-version 1-3
 
@@ -99,7 +94,7 @@ openvpn_start_time 1.588506393e+09
 This project requires Go >= v1.14. To get started, clone the repository and run `make generate`
 
 ```shell script
-git clone https://github.com/patrickjahns/openvpn_exporter.git
+git clone https://github.com/d3vilh/openvpn_exporter 
 cd openvpn_exporter
 
 make generate
