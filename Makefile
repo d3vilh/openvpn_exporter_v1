@@ -4,6 +4,7 @@ IMPORT := github.com/patrickjahns/$(NAME)
 BIN := bin
 DIST := dist
 GO := go
+CGO_ENABLED := 0
 
 ifeq ($(OS), Windows_NT)
 	EXECUTABLE := $(NAME).exe
@@ -75,7 +76,7 @@ test:
 build: $(BIN)/$(EXECUTABLE)
 
 $(BIN)/$(EXECUTABLE): $(SOURCES)
-	$(GO) build -i -v -tags '$(TAGS)' -ldflags '$(LDFLAGS)' -o $@ ./cmd/$(NAME)
+	env CGO_ENABLED=0 GOOS=linux GOARCH=arm64 $(GO) build -i -v -tags '$(TAGS)' -ldflags '$(LDFLAGS)' -o $@ ./cmd/$(NAME)
 
 .PHONY: release
 release: release-dirs release-build release-checksums
