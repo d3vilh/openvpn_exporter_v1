@@ -3,6 +3,9 @@
 
 Prometheus exporter for openvpn. Exposes the metrics from [openvpn status file](https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/) - supports status-version 1-3
 
+## Build Docker image:
+`docker build --force-rm=true -t openvpn_exporter .`
+
 
 ## Usage
 
